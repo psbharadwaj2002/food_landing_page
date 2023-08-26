@@ -1,0 +1,1049 @@
+// $nani: #0C7075;
+// $sai-sree : #c38eb4;
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+
+// ******************************************************************************************************************************
+//                                          NAVBAR
+// ******************************************************************************************************************************
+.nav-main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    font-size: 5.4px;
+
+    #title{
+        font-size: 24px;
+        font-weight: 400px;
+        font-family: 'Qwigley', 'cursive';
+    }
+
+    #location>p{
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #nav-buttons{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+
+        button{
+            padding: 2px 5px;
+            margin: 5px;
+            background-color: transparent;
+            border: 1px solid #FFB30E;
+            border-radius: 4px;
+        }
+
+        div{
+            font-weight: 400;
+            color: #424242;
+        }
+
+    }
+
+    .color-yellow{
+        color: #FFB30E;
+    }
+    
+}
+
+// ******************************************************************************************************************************
+//                                    LOOK AT YOUR FAV
+// ******************************************************************************************************************************
+#middle{
+    height: 191px;
+    width: 100vw;
+    background-color: #FDBE35;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.middle-title{
+    font-size: 27px;
+    font-weight: 400px;
+    color: #ffffff;
+    font-family: 'Qwigley', 'cursive';
+}
+
+
+
+#left>h6{
+    font-size: 7px;
+    font-weight: 400px;
+    color: #504F4F;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#right>img{
+    height: 127px;
+    width: 157px;
+}
+
+#address{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#del-pick-buttons{
+    border-bottom:1px solid #f9f6f6;
+    box-shadow: 0px 0xp 0px 0px;
+    justify-content: space-evenly;
+}
+
+#del-pick-buttons>ul{
+    margin-top: auto;
+    margin-bottom: auto;
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: -20px;
+    bottom: auto;
+}
+
+#del-pick-buttons>ul>li{
+    font-size: 5.4px;
+    padding: 2px 5px;
+    margin: 5px 2px 5px 5px;
+    border-radius: 4px;
+}
+
+#del-pick-buttons>ul>.choice{
+    background-color: #F172281A;
+    color: #F17228;
+}
+
+#address-bar{
+    font-size: 5.4px;
+}
+
+#address-bar>div{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#address-bar>div>span>span>div{
+    padding: 3px 5px;
+}
+
+#address-bar>div>span>span>div>input{
+    border: none;
+    background-color: transparent;
+    color: #9E9E9E;
+    width: 70px;
+    outline: none;
+}
+
+#address-bar>div>span>span{
+    position: relative;
+    top: auto;
+    bottom: auto;
+}
+
+#address-bar>div>span{
+    position: relative;
+    top: auto;
+    bottom: auto;
+    justify-content: center;
+    background-color: #F5F5F5;
+}
+
+#address-bar>div>.find-food{
+    padding: 4px 10px;
+    background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+    border: none;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+
+
+// ******************************************************************************************************************************
+//                                          IDLY VADA
+// ******************************************************************************************************************************
+#images_body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    div{       
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 5px;
+
+        img{
+            height: 91px;
+            width: 108px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        h6{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 7px;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        .change-theme{
+            margin-top: 5px;
+            span{
+                display: inline-block;
+                background-color: #F1722833;
+                color: #F17228;
+                border-radius: 3px;
+                padding: 5px 10px;
+            }
+        }
+
+        
+    }
+}
+
+// ******************************************************************************************************************************
+//                                          HOW DOES
+// ******************************************************************************************************************************
+#how-does{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h4{
+        text-align: center;
+        color: #F17228;
+        font-weight: 700;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    #working-type{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 400px;
+        align-items: center;
+        box-shadow: 0px 5px 27px 11px #FFB5151A;
+        padding: 10px;
+
+
+        .working_content{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            h5{
+                font-style: 'Source Sans Pro', sans-serif;
+                font-size: 11px;
+                font-weight: 700;
+                background: -webkit-linear-gradient(#FB3C00, #FFB800);
+                background-clip: padding-box;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            img{
+                height: 50px;
+                width: 50px;
+                padding: 5px;
+            }
+        }
+    }
+
+    .vl {
+        border-left: 1px solid #CFCFCF;
+        height: 29px;
+    }
+}
+
+
+// ******************************************************************************************************************************
+//                                          SEARCH BY FOOD
+// ******************************************************************************************************************************
+#search-by-food{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #F5F5F5F5;
+
+    h4{
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 13px;
+        font-weight: 700;
+        font-family: "Source Sans Pro", sans-serif;
+    }
+
+    #search-images{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        // align-items: start;
+
+        div{
+            padding: 5px;
+            img{
+                border-radius: 50%;
+                height: 66px;
+                width: 66px;
+            }
+
+            h6{
+                font-size: 7px;
+                font-weight: 700;
+                color: #424242;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+// ******************************************************************************************************************************
+//                                                BEST DEALS
+// ******************************************************************************************************************************
+#best-deals{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 20px ;
+    
+    div{
+        margin: 10px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 120px;
+        width: 140px;
+        justify-content: space-between;
+
+        div{
+            margin: 0px;
+
+            h4{
+                font-size: 13px;
+                font-weight: 700;
+                font-family: "Source Sans Pro", sans-serif;
+                span{
+                    color: #FFB30E;
+                }
+            }
+
+            p{
+                color: #616161B0;
+                font-weight: 600;
+                font-size: 6px;
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+
+        button{
+            background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+            border: none;
+            color: white;
+            height: 30px;
+            font-size: 7px;
+            border-radius: 5px;
+            box-shadow: 0px 5px 8px 0px #DE97003D;
+            font-family: "source sans pro", sans-serif;
+        }
+    }
+
+    .image{
+        height: 80px;
+        width: 150px;
+
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 5px;
+        }
+    }
+}
+
+// ******************************************************************************************************************************
+//                                              POPULAR-ITEMS
+// ******************************************************************************************************************************
+#popular-items{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+    h4{
+        text-align: center;
+        font-weight: 700;
+        font-family: "Source Sans Pro", sans-serif;
+    }
+    .images{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: flex-start;
+
+        .image{
+            width: 85px;
+            margin: 0px 0px 30px 5px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+
+            img{
+                width: 100%;
+                margin-bottom: 5px;
+                border-radius: 5px;
+            }
+        
+            p{
+                font-weight: 700;
+                font-family: "Source Sans Pro", sans-serif;
+                font-size: 7px;
+                text-align: center;
+                color: #424242;
+            }
+
+            button{
+                padding: 5px 0px;
+                width: 100%;
+                background: #F17228;
+                color: #FFFFFF;
+                font-family: "Source Sans Pro", sans-serif;
+                font-size: 6px;
+                box-shadow: 0px 20px 40px 0px #FA63233D;
+                box-shadow: 0px 5px 10px 0px #FD725C38;
+                border: none;
+                border-radius: 2px;
+            }
+        }
+    }
+}
+
+
+// ******************************************************************************************************************************
+//                                              END
+// ******************************************************************************************************************************
+#end{
+    height: 175px;
+    background-color:#090D12;
+    padding: 20px;
+    
+    .content_2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-top: 1px solid #424242;
+        border-bottom: 1px solid #424242;
+        padding: 10px 0px;
+        
+        #left{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 180px;
+            justify-content: space-between;
+            
+            .left-content{
+                h6{
+                    color: #FFFFFF;
+                    font-size: 7px;
+                    margin: 0px 0px 10px 0px;
+                }
+
+                div{
+                    a{
+                        display: block;
+                        text-decoration: none;
+                        color: #F5F5F5;
+                        font-size: 5.45px;
+                        margin-bottom: 3px;
+                    }
+                }
+            }
+        }
+
+        #right{
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 6px;
+        // justify-content: space-evenly;
+            input{
+                // width: 90px;
+                border: none;
+            }
+
+            
+            #last{
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .email-input-container {
+                display: flex;
+                align-items: center;
+                background-color: #424242;
+                color: #ADADAD;
+                padding: 7px;
+                border-radius: 5px;
+                width: 90px; /* You can adjust the width as needed */
+            }
+    
+            .email-input-container input[type="text"] {
+                // flex-grow: 1;
+                border: none;
+                background: transparent;
+                color: white;
+                font-size: 6px;
+                outline: none;
+            }
+    
+            .email-input-container .email-icon {
+                padding: 5px;
+            }
+
+            button{
+                margin-left: 3px;
+                padding: 5px;
+                color: #FFFFFF;
+                border: none;
+                border-radius: 3px;
+                background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+                box-shadow: 0px 14px 32px 0px #FFB20E4A;
+                box-shadow: 0px 5px 8px 0px #DE97003D;
+            }
+
+            // MINOR
+            #receive{
+                color: #BBBBBB;
+            }
+            
+            .same{
+                color : #F5F5F5;
+                a{
+                    margin-left: 1px;
+                }
+            }
+        }
+    }
+
+    p{
+        margin-top: 4px;
+        color: #F5F5F5;
+        font-size: 5px;
+    }
+
+
+}
+
+
+
+
+// ******************************************************************************************************************************
+//                                         <<<<<<<<<< MEDIA QUERIES >>>>>>>>>>
+// ******************************************************************************************************************************
+
+// ******************************************************************************************************************************
+//                                            <<<<<<<<<< TABLET >>>>>>>>>>
+// ******************************************************************************************************************************
+
+@media screen and (min-width: 576px){
+    // NAVBAR
+    .nav-main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        justify-content: space-between;
+        font-size: 9px;
+
+        #title{
+            font-size: 41px;
+            font-weight: 400px;
+        }
+    }
+
+    // MIDDLE CONTENT
+    #middle{
+        height: 330px;
+
+        #left{
+            .middle-title{
+                font-size: 46px;
+            }
+
+            h6{
+                font-size: 12px;
+            }
+
+            #address{
+                #del-pick-buttons{
+                    ul{
+                        li{
+                            font-size: 9px;
+                        }
+                    }
+                }
+            }
+
+            #address-bar{
+                font-size: 9px;
+                input{
+                    width: 300px;
+                    height: 20px;
+                }
+
+                button{
+                    padding: 8px 10px;
+                    margin-left: 5px;
+                    border-radius: 8px;
+                }
+            }
+        }
+
+        #right{
+            img{
+                height: 221px;
+                width: 273px;
+            }
+        }
+    }
+
+    // IDLY VADA
+    #images_body{
+        margin-top: 40px;
+        div{
+            img{
+                height: 157px;
+                width: 186px;
+                margin-bottom: 10px;
+            }
+
+            h6{
+                font-size: 12px;
+            }
+
+            .change-theme{
+                span{
+                    padding: 8px 15px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+    // HOW DOES
+    #how-does{
+        margin-top: 50px;
+
+        h4{
+            font-size: 23px;
+        }
+
+        #working-type{
+            width: 800px;
+            padding: 20px;
+            margin-top: 20px;
+
+            .working_content{
+                h5{
+                    font-size: 18px;
+                }
+
+                img{
+                    height: 71px;
+                    width: 71px;
+                    margin: 0px 20px;
+                }
+            }
+        }
+
+    }
+
+    // SEARCH BY FOOD
+    #search-by-food{
+        margin-top: 50px;
+        padding: 60px;
+
+        h4{
+            font-size: 24px;
+        }
+
+        #search-images{
+            padding-right: 60px;
+            div{
+
+                img{
+                    height: 114px;
+                    width: 114px;
+                }
+
+                h6{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    // BEST DEALS
+    #best-deals{
+       margin-top: 60px;
+       padding-left: 60px;
+       padding-right: 60px;
+
+        .content{
+            height: 160px;
+            width: 200px;
+
+
+            div{
+
+                h4{
+                    font-size: 22px;
+                }
+
+                p{
+                    font-size: 9px;
+                }
+            }
+            
+            button{
+                font-size: 10px;
+            }
+        }
+
+        .image{
+            height: 267px;
+            width: 501px;
+        }
+    }
+
+
+    // POPULAR ITEMS
+    #popular-items{
+        margin-top: 60px;
+        padding: 50px;
+
+        .images{
+            margin-top: 20px;
+            .image{
+                width: 148px;
+                margin: 0px 0px 50px 10px;
+
+                p{
+                    font-size: 12px;
+                }
+
+                button{
+                    font-size: 9px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+    // END
+    #end{
+        height: 200px;
+        padding: 30px 60px;
+
+        .content_2{
+
+            #left{
+                width: 400px;
+
+                .left-content{
+                    h6{
+                        font-size: 12px;
+                    }
+
+                    div{
+                        a{
+                            font-size: 9px;
+                            margin-bottom: 5px;
+                        }
+                    }
+                }
+            }
+
+            #right{
+                height: 100px;
+                font-size: 9px;
+                .email-input-container{
+                    width: 120px;
+                }
+            }
+        }
+
+        p{
+            font-size: 8px;
+        }
+    }
+
+    
+}
+
+// ******************************************************************************************************************************
+//                                            <<<<<<<<<< LAPTOP AND DESKTOP >>>>>>>>>>
+// ******************************************************************************************************************************
+
+@media screen  and (min-width: 1200px){
+    .nav-main{
+        width: 1200px;
+        font-size: 12px;
+
+        #title{
+            font-size: 51px;
+        }
+
+        #nav-buttons{
+            div{
+                margin-right: 10px;
+            }
+        }
+    }
+
+    #middle{
+        height: 400px;
+        padding: 0px 200px;
+        // margin-top: 0px;
+        #left{
+            .middle-title{
+                font-size: 56px;
+            }
+
+            h6{
+                font-size: 14px;
+            }
+
+            #address{
+                #del-pick-buttons{
+                    ul{
+                        li{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+            #address-bar{
+                font-size: 12px;
+                input{
+                    width: 300px;
+                    height: 25px;
+                }
+
+                button{
+                    padding: 10px 15x;
+                    margin-left: 10px;
+                    border-radius: 8px;
+                }
+            }
+
+            
+        }
+
+        #right{
+            img{
+                height: 280px;
+                width: 340px;
+            }
+        }
+    }
+
+    // IDLY VADA
+    #images_body{
+        margin-top: 50px;
+        div{
+            img{
+                height: 190px;
+                width: 226px;
+                margin-bottom: 15px;
+            }
+
+            h6{
+                font-size: 14px;
+            }
+
+            .change-theme{
+                span{
+                    padding: 10px 18px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+    // HOW DOES
+    #how-does{
+        margin-top: 70px;
+
+        h4{
+            font-size: 27px;
+        }
+
+        #working-type{
+            width: 1000px;
+            padding: 20px;
+            margin-top: 20px;
+
+            .working_content{
+                h5{
+                    font-size: 22px;
+                }
+
+                img{
+                    height: 86px;
+                    width: 86px;
+                    margin: 0px 20px;
+                }
+            }
+        }
+
+    }
+
+    // SEARCH BY FOOD
+    #search-by-food{
+        margin-top: 90px;
+        padding: 100px 150px;
+
+        h4{
+            font-size: 24px;
+        }
+
+        #search-images{
+            // padding: 0px 60px;
+            div{
+
+                img{
+                    height: 138px;
+                    width: 138px;
+                }
+
+                h6{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    #best-deals{
+        margin-top: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
+ 
+         .content{
+             height: 200px;
+             width: 240px;
+ 
+ 
+             div{
+ 
+                 h4{
+                     font-size: 27px;
+                 }
+ 
+                 p{
+                     font-size: 12px;
+                 }
+             }
+             
+             button{
+                 font-size: 10px;
+             }
+         }
+ 
+         .image{
+             height: 324px;
+             width: 607px;
+         }
+     }
+
+    //  POPULAR ITEMS
+     #popular-items{
+        margin-top: 60px;
+        padding: 0px 130px;
+
+        .images{
+            margin-top: 20px;
+            .image{
+                width: 179px;
+                margin: 0px 0px 50px 20px;
+
+                p{
+                    font-size: 14px;
+                }
+
+                button{
+                    font-size: 9px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+    #end{
+        height: 260px;
+        padding: 50px 150px;
+
+        .content_2{
+
+            #left{
+                width: 600px;
+
+                .left-content{
+                    h6{
+                        font-size: 14px;
+                    }
+
+                    div{
+                        a{
+                            font-size: 12px;
+                            margin-bottom: 5px;
+                        }
+                    }
+                }
+            }
+
+            #right{
+                height: 150px;
+                font-size: 12px;
+                .email-input-container{
+                    width: 120px;
+                }
+            }
+        }
+
+        p{
+            font-size: 10px;
+        }
+    }
+
+}

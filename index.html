@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS BOOTSTRAP LINKS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+    <!-- GOOGLE FONTS -->
+    <!-- 1. QWIGLEY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 2. SOURCE SANS 3 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 3. OPEN SANS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Food Landing Page</title>
+  </head>
+  <body>
+
+    <!-- ******************************************************************************************* -->
+    <!--                                      NAVBAR                                                 -->
+    <!-- ******************************************************************************************* -->
+    <div class="nav-main">
+      <div>
+        <p id="title" class="color-yellow">Hot Meals</p>
+      </div>
+
+      <div>
+        <p id="location">
+          <strong>Deliver to: &nbsp;</strong>
+          <i class="fa-solid fa-location-dot color-yellow">&nbsp;</i>
+          Current Location <strong>Ashok Nagar, Chennai-60013</strong>
+        </p>
+      </div>
+
+      <div id="nav-buttons">
+        <div>
+          <i class="fa-solid fa-magnifying-glass color-yellow">&nbsp;&nbsp;</i
+          >Search Food
+        </div>
+        <button class="color-yellow">
+          <i class="fa-solid fa-user">&nbsp;</i>Login
+        </button>
+      </div>
+    </div>
+
+    <!-- ******************************************************************************************* -->
+    <!--                               LOOK AT YOUR FAV MEALS                                        -->
+    <!-- ******************************************************************************************* -->
+    <div id="middle">
+      <div id="left">
+        <div>
+          <p class="middle-title">Look at your fav Meals</p>
+        </div>
+
+        <h6>Within a few clicks, find meals that are accessible near you</h6>
+
+        <div id="address">
+          <div id="del-pick-buttons">
+            <ul>
+              <li class="delivery choice">
+                <i class="fa-solid fa-motorcycle">&nbsp;&nbsp;</i>Delivery
+              </li>
+              <li class="pickup">
+                <i class="fa-solid fa-bag-shopping">&nbsp;&nbsp;</i>Pickup
+              </li>
+            </ul>
+          </div>
+
+          <div id="address-bar">
+            <div>
+              <span>
+                <span>
+                  <div class="address-input-container">
+                    <i class="fa-solid fa-location-dot">&nbsp;</i>
+                    <input type="text" placeholder="Enter your address" />
+                  </div>
+                </span>
+              </span>
+
+              <button class="find-food">
+                <i class="fa-solid fa-magnifying-glass">&nbsp;&nbsp;</i>Find
+                Food
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="right">
+        <img src="./images/main.png" alt="" />
+      </div>
+    </div>
+
+    <!-- ******************************************************************************************* -->
+    <!--                                      IDLY VADA                                              -->
+    <!-- ******************************************************************************************* -->
+    <div id="images_body">
+      <div>
+        <img src="./images/delivery_images/vada.png" alt="" />
+        <h6>Vada</h6>
+        <h6 class="change-theme"><span>30 min Delivery</span></h6>
+      </div>
+      <div>
+        <img src="./images/delivery_images/idly.png" alt="" />
+        <h6>Idly</h6>
+        <h6 class="change-theme"><span>30 min Delivery</span></h6>
+      </div>
+      <div>
+        <img src="./images/delivery_images/parotta.png" alt="" />
+        <h6>Parotta</h6>
+        <h6 class="change-theme"><span>30 min Delivery</span></h6>
+      </div>
+      <div>
+        <img src="./images/delivery_images/kichadi.png" alt="" />
+        <h6>Kichadi</h6>
+        <h6 class="change-theme"><span>30 min Delivery</span></h6>
+      </div>
+    </div>
+
+    <!-- ******************************************************************************************* -->
+    <!--                                  HOW DOES IT WORK                                           -->
+    <!-- ******************************************************************************************* -->
+    <div id="how-does">
+      <h4>How does it work</h4>
+
+      <div id="working-type">
+
+        <div class = "working_content">
+          <img src="./images/how_does/discounts.png" alt="" />
+          <h5>
+            Daily <br>
+            Discounts
+          </h5>
+        </div>
+
+        <div class="vl"></div>
+
+        <div class = "working_content">
+          <img src="./images/how_does/location.png" alt="" />
+          <h5>
+            Live <br />
+            Tracking
+          </h5>
+        </div>
+
+        <div class="vl"></div>
+
+        <div class = "working_content">
+          <img src="./images/how_does/time.png" alt="" />
+          <h5>
+            Quick <br />
+            Delivery
+          </h5>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ******************************************************************************************* -->
+    <!--                                   SEARCH BY FOOD                                            -->
+    <!-- ******************************************************************************************* -->
+    <div id="search-by-food">
+      
+      <div><h4>Search by Food</h4></div>
+      <div id="search-images">
+        <div>
+          <img src="./images/search_by_food_images/dosa.png" />
+          <h6>Dosa</h6>
+        </div>
+
+        <div>
+          <img src="./images/search_by_food_images/Aappam.png" />
+          <h6>Aappam</h6>
+        </div>
+
+        <div>
+          <img src="./images/search_by_food_images/puttu.png" alt="" />
+          <h6>Puttu</h6>
+        </div>
+
+        <div>
+          <img src="./images/search_by_food_images/idlyappam.png" alt="" />
+          <h6>Idlyappam</h6>
+        </div>
+
+        <div>
+          <img src="./images/search_by_food_images/pongal.png" alt="" />
+          <h6>Pongal</h6>
+        </div>
+
+        <div>
+          <img src="./images/search_by_food_images/veg-rice.png" alt="" />
+          <h6>Veg Rice</h6>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- ******************************************************************************************* -->
+    <!--                                      BEST DEALS                                             -->
+    <!-- ******************************************************************************************* -->
+    <div id="best-deals">
+      <!-- 1 -->
+      <div class="content">
+        <div>
+          <h4>Best deals <span>Crispy Tiffen</span></h4>
+          <p>Enjoy large size of Dosa. Complete perfect slice of Dosa.</p>
+        </div>
+
+        <button>
+          Proceed to Order <i class="fa-solid fa-angle-right"></i>
+        </button>
+      </div>
+
+      <!-- 2 -->
+      <div class="image">
+        <img src="./images/best/tiffen.png" alt="" />
+      </div>
+    </div>
+
+    <!-- ******************************************************************************************* -->
+    <!--                                     POPULAR ITEMS                                           -->
+    <!-- ******************************************************************************************* -->  
+    <div id="popular-items">
+      <h4>Popular Items</h4>
+
+      <div class="images">
+        <div class="image">
+          <img src="./images/popular_items/1.murukku.png" alt="" />
+          <p>Murukku</p>
+          <button>Order Now</button>
+        </div>
+        <div class="image">
+          <img src="./images/popular_items/2.paniyaram.png" alt="" />
+          <p>Paniyaram</p>
+          <button>Order Now</button>
+        </div>
+        <div class="image">
+          <img src="./images/popular_items/3.seeval_murukku.png" alt="" />
+          <p>Seeval Murukku</p>
+          <button>Order Now</button>
+        </div>
+        <div class="image">
+          <img src="./images/popular_items/4.mixture.png" alt="" />
+          <p>Mixture</p>
+          <button>Order Now</button>
+        </div>
+        <div class="image">
+          <img src="./images/popular_items/5.veg_soup.png" alt="" />
+          <p>Veg Soup</p>
+          <button>Order Now</button>
+        </div>
+        <div class="image">
+          <img src="./images/popular_items/6.gulab_jamun.png" alt="" />
+          <p>Gulab Jamun</p>
+          <button>Order Now</button>
+        </div>
+        <div class="image">
+          <img src="./images/popular_items/7.png" alt="" />
+          <p>Porivellangai Urundai</p>
+          <button>Order Now</button>
+        </div>
+        <div class="image">
+          <img src="./images/popular_items/8.jangri.png" alt="" />
+          <p>Jangri</p>
+          <button>Order Now</button>
+        </div>
+        <div class="image">
+          <img src="./images/popular_items/9.lattu.png" alt="" />
+          <p>Lattu</p>
+          <button>Order Now</button>
+        </div>
+        <div class="image">
+          <img src="./images/popular_items/10.halwa.png" alt="" />
+          <p>Halwa</p>
+          <button>Order Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ******************************************************************************************* -->
+    <!--                                          END                                                -->
+    <!-- ******************************************************************************************* -->
+    <div id="end">
+      <div class="content_2">
+        <div id="left">
+          <div class = "left-content">
+            <h6>Company</h6>
+            <div>
+              <a href="#">About Us</a>
+              <a href="#">Team</a>
+              <a href="#">Careers</a>
+              <a href="#">Blog</a>
+            </div>
+          </div>
+
+          <div class = "left-content">
+            <h6>Contact</h6>
+            <div>
+              <a href="#">Help & Support</a>
+              <a href="#">Partner with us</a>
+              <a href="#">Ride with us</a>
+            </div>
+          </div>
+
+          <div class = "left-content">
+            <h6>Legal</h6>
+            <div>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">Refund & Cancellation</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Cookie Policy</a>
+            </div>
+          </div>
+          
+        </div>
+
+
+      
+        <div id="right">
+          <div class="same">FOLLOW US</div>
+  
+          <div class="same">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+  
+          <div id="receive">Receive exclusive offersin your mailbox</div>
+  
+          <div id="last">
+            <div class="email-input-container">
+              <i class="fa-solid fa-envelope">&nbsp;</i>
+              <input type="text" placeholder="Enter your email" />
+            </div>
+  
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+
+      <p>All rights reserved &copy;</p>
+
+    </div>
+  </body>
+</html>
